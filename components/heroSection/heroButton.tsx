@@ -59,7 +59,7 @@ export function HeroButton({}) {
             ref={rotating}
             width={100}
             height={100}
-            src="/svg_logo/webflow-badge.svg"
+            src="/svg_logo/my-portfolio-logo.svg"
             alt=""
           />
         </div>

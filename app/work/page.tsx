@@ -21,54 +21,54 @@ const projectsData = [
   {
     title: (
       <>
-        Simple Font <br /> Replacer
+        Treccani
       </>
     ),
-    description: "Figma Plugin",
+    description: "E-Commerce Site",
     link: "https://www.figma.com/community/plugin/1380643582596908985/simple-font-replacer",
-    imageLink: "/img/projects/2.avif",
+    imageLink: "/img/projects/treccani.avif",
   },
   {
     title: (
       <>
-        Andy PFP <br /> Generator
+        Giro  <br /> D'Italia
       </>
     ),
-    description: "Next.js Site",
+    description: "Web Site",
     link: "https://generator.andytoken.com/",
-    imageLink: "/img/projects/3.avif",
+    imageLink: "/img/projects/giro-italia.avif",
   },
   {
     title: (
       <>
-        PonkeSol <br /> Page
+        Smeg
       </>
     ),
-    description: "Webflow Site",
+    description: "E-Commerce Site",
     link: "https://ponkecoin-ninetyeight.webflow.io/",
-    imageLink: "/img/projects/4.avif",
+    imageLink: "/img/projects/smeg.avif",
   },
 
   {
     title: (
       <>
-        AmanFX <br /> Portfolio
+        Inter
       </>
     ),
-    description: "Webflow Site",
+    description: "Web Site",
     link: "https://amanfx.webflow.io/",
-    imageLink: "/img/projects/5.avif",
+    imageLink: "/img/projects/inter.avif",
   },
-  {
-    title: (
-      <>
-        Therapist <br /> Website
-      </>
-    ),
-    description: "UI Design",
-    link: "https://www.figma.com/proto/Tzz9bwrjHtSza87b1l3D0i/Inner-Strength-UI-Design?type=design&node-id=37-10&t=pq2KDLjYbMU4LFgA-1&scaling=min-zoom&page-id=0%3A1&mode=design",
-    imageLink: "/img/projects/6.avif",
-  },
+  // {
+  //   title: (
+  //     <>
+  //       Therapist <br /> Website
+  //     </>
+  //   ),
+  //   description: "UI Design",
+  //   link: "https://www.figma.com/proto/Tzz9bwrjHtSza87b1l3D0i/Inner-Strength-UI-Design?type=design&node-id=37-10&t=pq2KDLjYbMU4LFgA-1&scaling=min-zoom&page-id=0%3A1&mode=design",
+  //   imageLink: "/img/projects/6.avif",
+  // },
 ];
 //test
 export default function WorkPage() {

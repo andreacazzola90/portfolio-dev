@@ -84,12 +84,12 @@ export function HeaderNavigation() {
     },
     {
       name: "Contact",
-      href: links.email,
-    },
-    {
-      name: "Linkedin",
       href: links.linkedin,
     },
+    // {
+    //   name: "Linkedin",
+    //   href: links.linkedin,
+    // },
   ];
   return (
     <>
