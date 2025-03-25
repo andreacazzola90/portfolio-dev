@@ -25,7 +25,7 @@ const projectsData = [
       </>
     ),
     description: "E-Commerce Site",
-    link: "https://www.figma.com/community/plugin/1380643582596908985/simple-font-replacer",
+    link: "https://www.treccani.it/",
     imageLink: "/img/projects/treccani.avif",
   },
   {
@@ -35,7 +35,7 @@ const projectsData = [
       </>
     ),
     description: "Web Site",
-    link: "https://generator.andytoken.com/",
+    link: "https://www.giroditalia.it/",
     imageLink: "/img/projects/giro-italia.avif",
   },
   {
@@ -45,7 +45,7 @@ const projectsData = [
       </>
     ),
     description: "E-Commerce Site",
-    link: "https://ponkecoin-ninetyeight.webflow.io/",
+    link: "https://www.smeg.com/it",
     imageLink: "/img/projects/smeg.avif",
   },
 
@@ -56,7 +56,7 @@ const projectsData = [
       </>
     ),
     description: "Web Site",
-    link: "https://amanfx.webflow.io/",
+    link: "https://www.inter.it/it",
     imageLink: "/img/projects/inter.avif",
   },
   // {
