@@ -78,7 +78,7 @@ export function Header({ color, className, mode = "hamburger" }: HeaderProps) {
                   <path d="M174.464 74.3546L125.755 46.8158L125.755 74.3546L174.464 74.3546Z" fill="currentColor"/>
                   <path d="M174.464 25.6454L125.755 53.1842L125.755 25.6454L174.464 25.6454Z" fill="currentColor"/>
                 </g>
-                <circle cx="150.11" cy="50" r="49" stroke="currentColor" stroke-width="2"/>
+                <circle cx="150.11" cy="50" r="49" stroke="currentColor" strokeWidth="2"/>
                 <path d="M27.6 25.6454L0.0612493 74.3546H27.6V25.6454Z" fill="currentColor"/>
                 <path d="M93.2474 74.3546L44.5383 46.8158L44.5382 74.3546L93.2474 74.3546Z" fill="currentColor"/>
                 <path d="M93.2474 25.6454L44.5383 53.1842L44.5382 25.6454L93.2474 25.6454Z" fill="currentColor" />
