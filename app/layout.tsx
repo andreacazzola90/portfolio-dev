@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import localFont from "next/font/local";
-import GoogleAnalytics from "@/app/GoogleAnalytics";
 import Script from "next/script";
 
 import "./globals.css";
 import StoreProvider from "@/redux/storeProvider";
 import { gsap } from "gsap";
 import { CustomEase } from "gsap/CustomEase";
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google'
 gsap.registerPlugin(CustomEase);
 
 const dM_Sans = DM_Sans({ subsets: ["latin-ext"] });
@@ -48,7 +47,6 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
         ></meta>
-        <GoogleAnalytics />
       </head>
 
       <body className={helvetica.className}>
@@ -56,6 +54,7 @@ export default function RootLayout({
           {children}
         </StoreProvider>
         <GoogleTagManager gtmId="GTM-TL5J9KWX" />
+        <GoogleAnalytics gaId="G-P42JKPYWYQ" />
       </body>
       <Script src="https://cdn.jsdelivr.net/gh/vipulkumar-dev/gsap@2024/ScrambleTextPlugin.min.js" />
     </html>
