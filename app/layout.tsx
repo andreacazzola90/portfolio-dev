@@ -8,6 +8,7 @@ import StoreProvider from "@/redux/storeProvider";
 import { gsap } from "gsap";
 import { CustomEase } from "gsap/CustomEase";
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { GoogleAnalytic } from "@/components/googleAnalytics";
 import { GoogleTagManager } from '@next/third-parties/google';
 gsap.registerPlugin(CustomEase);
@@ -58,6 +59,7 @@ export default function RootLayout({
           {children}  
         </StoreProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
       
       <Script src="https://cdn.jsdelivr.net/gh/vipulkumar-dev/gsap@2024/ScrambleTextPlugin.min.js" />
